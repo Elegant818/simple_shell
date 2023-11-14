@@ -28,7 +28,7 @@ int check(char **command, int status)
 /**
  * main - Handel shell commands
  * @argc: Number of arguments
- * @argc: Array of strings (arguments)
+ * @argv: Array of strings (arguments)
  * Return: Return 0 if success
  */
 int main(int argc, char **argv)

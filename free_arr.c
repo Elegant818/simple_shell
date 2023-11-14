@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * frees - frees allocated memory for an array of strings
+ * free_arr - frees allocated memory for an array of strings
  * @array: The pointer to the allocated memory
  *
  * Return: Nothing

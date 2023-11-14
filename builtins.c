@@ -32,7 +32,7 @@ int check_exit(char **command, int *status)
 	return (0);
 }
 
-/*
+/**
  *_setenv_unsetenv - Set or unset an environment variable
  *@arguments: The arguments passed to unset or unsetenv
  *

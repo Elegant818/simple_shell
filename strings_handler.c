@@ -49,7 +49,7 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * _strchr - compare 2 string
+ * _strcmp - compare 2 string
  * @s1:string
  * @s2:strmp
  *
@@ -99,19 +99,19 @@ char *_strchr(char *s, char c)
  */
 char *_strcat(char *dest, char *src)
 {
-        char *s = dest;
+	char *s = dest;
 
-        while (*dest != '\0')
-        {
-                dest++;
-        }
+	while (*dest != '\0')
+	{
+		dest++;
+	}
 
-        while (*src != '\0')
-        {
-                *dest = *src;
-                dest++;
-                src++;
-        }
-        *dest = '\0';
-        return (s);
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++
+	}
+	*dest = '\0';
+	return (s);
 }
